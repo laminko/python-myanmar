@@ -37,7 +37,7 @@ setup(
     include_package_data=True,
     keywords='python-myanmar',
     name='python-myanmar',
-    packages=find_packages(include=['myanmar']),
+    packages=find_packages(include=['myanmar', 'myanmar.romanizer']),
     setup_requires=setup_requirements,
     test_suite='tests',
     tests_require=test_requirements,
